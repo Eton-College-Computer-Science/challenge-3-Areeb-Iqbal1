@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80921D4C2CA2C568007B8064 /* optionless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80921D4B2CA2C553007B8064 /* optionless.swift */; };
+		80921D4E2CA2C815007B8064 /* integerunwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80921D4D2CA2C807007B8064 /* integerunwrap.swift */; };
 		B420076B2C9974AA004486DA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420076A2C9974AA004486DA /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		80921D4B2CA2C553007B8064 /* optionless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionless.swift; sourceTree = "<group>"; };
+		80921D4D2CA2C807007B8064 /* integerunwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = integerunwrap.swift; sourceTree = "<group>"; };
 		B42007672C9974AA004486DA /* Challenge 3 - Cities */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Challenge 3 - Cities"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B420076A2C9974AA004486DA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B42007712C9974C1004486DA /* pseudocode.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = pseudocode.txt; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 		B42007692C9974AA004486DA /* Challenge 3 - Cities */ = {
 			isa = PBXGroup;
 			children = (
+				80921D4B2CA2C553007B8064 /* optionless.swift */,
+				80921D4D2CA2C807007B8064 /* integerunwrap.swift */,
 				B420076A2C9974AA004486DA /* main.swift */,
 				B42007712C9974C1004486DA /* pseudocode.txt */,
 				B42007722C9974CF004486DA /* readme.md */,
@@ -125,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B420076B2C9974AA004486DA /* main.swift in Sources */,
+				80921D4E2CA2C815007B8064 /* integerunwrap.swift in Sources */,
+				80921D4C2CA2C568007B8064 /* optionless.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

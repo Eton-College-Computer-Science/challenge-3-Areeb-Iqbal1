@@ -6,13 +6,23 @@
 //
 
 import Foundation
-let city1 = ""
-let city2 = ""
-print("enter  your city choices")
 
-func cityNameMasher(city1:String, city2:String) -> String {
+func cityNameMasher(city1:String, city2:String) {
+    
+    
     let cityCapital = city1.uppercased()
     let cityCapital2 = city2.uppercased()
     
-    let citymash = cityCapital.prefix(4)
+    let cityMash = cityCapital.prefix(4)
+    let cityMash2 = cityCapital2.prefix(4)
+    
+    let nameMash = "\(cityMash) - \(cityMash2)"
+    
+    print(nameMash)
 }
+
+print("enter  your city choices: ")
+var city1  = readLine()
+var city2 = readLine()
+
+
